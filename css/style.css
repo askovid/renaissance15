@@ -1,0 +1,658 @@
+/* Header */
+.codrops-header {
+	text-align: center;
+        width: 100%;
+        font-family: "Comic sans MS";
+        padding: 1.2em 0;
+        color: #FFF;
+        background: #000;
+
+}
+
+.codrops-header h1 {
+	margin: 0;
+	font-weight: 800;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+
+/* Body */
+
+body{
+  background:#d3d3d3;
+}
+
+#bt{
+  margin-top:-5px;
+  width:36px;
+  height:36px;
+  background:url(../img/bt.png) no-repeat center;
+}
+/* About */
+
+
+.about #team ul {
+	margin:0px;
+	display:inline-block;
+	float:none;
+}
+
+.about #team ul li {
+	display: inline-block;
+	float:none;
+	padding-left:10px;
+	list-style: none;
+	overflow: hidden;
+	text-align: center;
+        position: relative;
+        margin: 5px auto;
+}
+
+.about #team ul li h1{ 
+	font-weight: 1700;
+	font-size: 14px;
+	line-height: 40px;
+	font-family: "futura-pt", sans-serif;
+	color: #898a8a;
+	text-align:center;
+	letter-spacing: 1px;
+}
+
+.about #team ul li h2{ 
+	font-weight: 1300;
+	font-size: 12px;
+	line-height: 15px;
+	font-family: "garamond-premier-pro", serif;
+	color: #898a8a;
+	text-align:center;
+	text-transform: none;
+	font-style: italic;
+}
+
+.about #team ul li .wrapper span{
+        display: none;
+        position: absolute;
+        padding: 56px 0 0 0;
+        left: 0;
+        top: 0;
+        text-align: justify;
+        text-justify: inter-word;
+        width:80%;
+        margin-top:130px;
+        margin-left:50px;
+        color: #fff;
+        font-family: "brandon-grotesque";
+        font-weight: 3500;
+        height: 100%;
+        font-size: 1.2em;
+}
+
+.about #team ul li .wrapper:hover span{
+	display: block;
+}
+
+.about #team ul li .wrapper img{
+	visibility:hidden;
+}
+
+.about #team ul li .wrapper:hover img{
+	visibility:visible;
+}
+
+.wrapper .red0{
+        position:relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 120px;
+        -webkit-border-radius: 120px;
+        -moz-border-radius: 120px;
+        background-size: 100% 100%;
+        top: 0; bottom: 0; right: 0; left: ;
+        -webkit-transition:all .5s ease-in;
+        -moz-transition:all .5s ease-in;
+        -o-transition:all .5s ease-in;
+        transition:all .5s ease-in;
+        
+        -webkit-transition:all .5s ease-out;
+        -moz-transition:all .5s ease-out;
+        -o-transition:all .5s ease-out;
+        transition:all .5s ease-out;
+        background:#fac213;
+        background: rgba(250, 194, 19, 0.65) !important;
+        opacity:0;
+}
+
+.wrapper:hover .red0 { 
+        opacity:0.95;
+}
+.ravi {
+	background:url(../img/ravi.jpg) no-repeat center;
+	background-position:center;
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;  
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;
+  	transition:all .5s ease-out;
+}
+	
+.deep {
+	background:url(../img/deep.jpg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+   	top: 0; bottom: 0; right: 0; left: 0;
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;  
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.ash{
+	background:url(../img/ash.jpeg) no-repeat center;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;  
+ 	-moz-transition:all .5s ease-out;
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+	
+.neel{
+	background:url(../img/neel.jpg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+	
+	-webkit-transition:all .2s ease-out;  
+ 	-moz-transition:all .2s ease-out;  
+  	-o-transition:all .2s ease-out;  
+  	transition:all .2s ease-out;
+}
+	
+.kaus {
+	background:url(../img/kaus.jpg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;  
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.gurt {
+	background:url(../img/gurt.jpeg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+
+	-webkit-transition:all .5s ease-in;
+ 	-moz-transition:all .5s ease-in;
+  	-o-transition:all .5s ease-in;
+  	transition:all .5s ease-in;
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;
+  	-o-transition:all .5s ease-out;
+  	transition:all .5s ease-out;
+}
+
+.nikh {
+	background:url(../img/nikh.jpeg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.mayank {
+	background:url(../img/mayank.jpeg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.shail {
+	background:url(../img/shail.jpg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.priya {
+	background:url(../img/priya.jpg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.ajay {
+	background:url(../img/ajay.jpeg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.faraz {
+	background:url(../img/faraz.jpg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.laksh {
+	background:url(../img/laksh.jpeg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.aksh {
+	background:url(../img/aksh.jpeg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.dev {
+	background:url(../img/dev.jpeg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.atif {
+	background:url(../img/atif.jpg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.sanuj {
+	background:url(../img/sanuj.jpg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.neelansh {
+	background:url(../img/neelansh.jpg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.gourav{
+	background:url(../img/gourav.jpg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+	
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}
+
+.nish {
+	background:url(../img/nish.jpg) no-repeat center;
+	background-size:cover;
+	background-position:center;
+
+	width: 300px;
+	height: 300px;cursor: pointer;
+	border: 3px solid black;
+	border-radius: 120px;
+	-webkit-border-radius: 120px;
+	-moz-border-radius: 120px;
+	background-size: 100% 100%;
+	
+	top: 0; bottom: 0; right: 0; left: 0;
+
+	
+	-webkit-transition:all .5s ease-in;  
+ 	-moz-transition:all .5s ease-in;  
+  	-o-transition:all .5s ease-in;  
+  	transition:all .5s ease-in; 
+
+	-webkit-transition:all .5s ease-out;
+ 	-moz-transition:all .5s ease-out;  
+  	-o-transition:all .5s ease-out;  
+  	transition:all .5s ease-out;
+}

@@ -1,0 +1,117 @@
+#menu{
+	background: rgb(113, 178, 244); list-style: none inside; margin: 0px; padding: 0px; top: 320px; right: 20px; position: fixed; z-index: 15; min-width: 100px; box-shadow: 0px 0px 10px rgba(0,0,0,0.3); -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+#menu .active.white {
+	background: rgb(255, 255, 255);
+}
+#menu .white:hover a {
+	background: rgb(255, 255, 255);
+}
+#menu .active.orange {
+	background: rgb(250, 163, 37);
+}
+#menu .orange:hover a {
+	background: rgb(250, 163, 37);
+}
+#menu .active.yellow {
+	background: rgb(255, 246, 99);
+}
+#menu .yellow:hover a {
+	background: rgb(255, 246, 99);
+}
+#menu .active.green {
+	background: rgb(149, 202, 92);
+}
+#menu .green:hover a {
+	background: rgb(149, 202, 92);
+}
+#menu .active.cyan {
+	background: rgb(0, 220, 173);
+}
+#menu .cyan:hover a {
+	background: rgb(0, 220, 173);
+}
+#menu .active.blue {
+	background: rgb(0, 183, 222);
+}
+#menu .blue:hover a {
+	background: rgb(0, 183, 222);
+}
+#menu .active.magenta {
+	background: rgb(205, 202, 205);
+}
+#menu .magenta:hover a {
+	background:rgb(205, 202, 205));
+}
+#menu .active.colorworks {
+	background: rgb(53, 221, 236);
+}
+#menu .colorworks:hover a {
+	background: rgb(53, 221, 236);
+}
+
+
+
+
+
+
+
+
+ul#css3menu1,ul#css3menu1 ul{
+	margin:0;list-style:none;padding:0;background-color:#080808;border-width:1px;border-style:solid;border-color:#5f5f5f;-moz-border-radius:0px;-webkit-border-radius:0px;border-radius:0px;}
+ul#css3menu1 ul{
+	display:none;position:absolute;right:100%;top:0;-moz-box-shadow:3.5px 3.5px 5px #000000;-webkit-box-shadow:3.5px 3.5px 5px #000000;box-shadow:3.5px 3.5px 5px #000000;background-color:black;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;border-color:#d4d4d4;padding:0 10px 10px;}
+ul#css3menu1 li:hover>*{
+	display:block;}
+ul#css3menu1 li{
+	position:relative;display:block;white-space:nowrap;font-size:0;}
+ul#css3menu1 li:hover{
+	z-index:1;}
+ul#css3menu1{
+	font-size:0;z-index:999;position:relative;display:block;float:left;padding:0;}
+ul#css3menu1>li{
+	margin:0;}
+ul#css3menu1 a:active, ul#css3menu1 a:focus{
+	outline-style:none;}
+ul#css3menu1 a{
+	display:block;vertical-align:middle;text-align:left;text-decoration:none;font:bold 14px Trebuchet MS;color:#000000;text-shadow:#FFF 0 0 1px;cursor:pointer;padding:10px;background-color:#0c97e2;background-image:url("mainbk.png");background-repeat:repeat;background-position:0 0;border-width:1px 0 0 0;border-style:solid;border-color:#C0C0C0;}
+ul#css3menu1 ul li{
+	background-color: #9CD8C1;float:none;margin:10px 0 0;}
+ul#css3menu1 ul a{
+	text-align:left;padding:4px;background-color: #9CD8C1;background-image:none;border-width:0;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;font:14px Tahoma;color:#000;text-decoration:none;}
+ul#css3menu1 li:hover>a,ul#css3menu1 li a.pressed{
+	background-color: #9CD8C1;border-color:#C0C0C0;border-style:solid;color:#ffffff;text-shadow:#FFF 0 0 1px;background-image:url("mainbk.png");background-position:0 100px;}
+ul#css3menu1 span{
+	display:block;overflow:visible;background-position:right center;background-repeat:no-repeat;padding-right:0px;}
+ul#css3menu1 > li.switch{
+	display:none;cursor:pointer;width:25px;height:20px;padding:10px;}
+ul#css3menu1 > li.switch:before{
+	content:"";position:absolute;display:block;height:4px;width:25px;border-radius:4px;background:#000000;-moz-box-shadow:0 8px #000000, 0 16px #000000;-webkit-box-shadow:0 8px #000000, 0 16px #000000;box-shadow:0 8px #000000, 0 16px #000000;}
+ul#css3menu1 > li.switch:hover:before{
+	background:#ffffff;-moz-box-shadow:0 8px #ffffff, 0 16px #ffffff;-webkit-box-shadow:0 8px #ffffff, 0 16px #ffffff;box-shadow:0 8px #ffffff, 0 16px #ffffff;}
+.c3m-switch-input{
+	display:none;}
+ul#css3menu1 li:hover>a,ul#css3menu1 li > a.pressed{
+	background-color:#555df9;background-image:url("mainbk.png");background-position:0 100px;border-style:solid;border-color:#C0C0C0;color:#ffffff;text-decoration:none;text-shadow:#FFF 0 0 1px;}
+ul#css3menu1 ul li:hover>a,ul#css3menu1 ul li > a.pressed{
+	background-color:#080808;background-image:none;color:#0978b3;text-decoration:none;}
+ul#css3menu1 li.topfirst>a{
+	border-radius:0px 0px 0 0;-moz-border-radius:0px 0px 0 0;-webkit-border-radius:0px;-webkit-border-bottom-right-radius:0;-webkit-border-bottom-left-radius:0;}
+ul#css3menu1 li.toplast>a{
+	border-radius:0 0 0px 0px;-moz-border-radius:0 0 0px 0px;-webkit-border-radius:0;-webkit-border-bottom-right-radius:0px;-webkit-border-bottom-left-radius:0px;}
+@media screen and (max-width: 768px) {
+	ul#css3menu1 > li {
+		position: initial;}
+	ul#css3menu1 ul .submenu,ul#css3menu1 li > ul {
+		left: 0; right:auto; top: 100%;}
+	ul#css3menu1 .submenu,ul#css3menu1 ul,ul#css3menu1 .column {
+		-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;padding-right: 0;width: 100% !important;}
+}
+@media screen and (max-width: 198px) {
+	ul#css3menu1 {
+		width: 100%;}
+	ul#css3menu1 > li {
+		display: none;		position: relative;		width: 100% !important;}
+	ul#css3menu1 > li.switch,.c3m-switch-input:checked + ul#css3menu1 > li + li {
+		display: block;}
+	ul#css3menu1 > li.switch > label {		position: absolute;cursor: pointer;top: 0;left: 0;right: 0;bottom: 0;}}

@@ -1,0 +1,54 @@
+/******************************
+Body
+******************************/
+body{
+	background:#333;
+}
+
+/******************************
+Wrapper
+******************************/
+#Wrapper{
+	margin:0 auto;
+	width:1000px;
+	margin-top:30px;
+}
+
+#Wrapper h1{
+	font-weight:300;
+	font-family:"Century Gothic";
+	text-align:left;
+	color:#FFF;
+	text-shadow:0px 2px #000;
+	margin-bottom:30px;
+}
+
+/******************************
+Image Gallery
+******************************/
+#Images ul li{
+	float:left;
+	
+	list-style:none;
+	margin:0px 0px 40px 40px;
+	opacity:0.6;
+	
+	-webkit-animation: scale 3s ease-in-out infinite alternate; 
+}
+
+#Images ul li:hover{
+	opacity:1.0;
+}
+
+/******************************
+Animations
+******************************/
+@-webkit-keyframes scale {
+  0% {
+	  
+  }
+  
+  100% {
+ 	 -webkit-transform: scale(1.2);
+  }
+}
